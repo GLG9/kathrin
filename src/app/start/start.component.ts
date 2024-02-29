@@ -10,9 +10,8 @@ import { Component } from '@angular/core';
 })
 
 export class StartComponent {
-  constructor(private router: Router) {}
   navigateTo() {
-    this.router.navigate(['./kontakt'])
+    window.location.href = "./#";
   }
 }
 
