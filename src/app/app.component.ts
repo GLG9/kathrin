@@ -6,7 +6,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { AusbildungComponent } from './pages/ausbildung/ausbildung.component';
 import { CoachingComponent } from './pages/coaching/coaching.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { homedir } from 'os';
 import { HomeComponent } from './pages/home/home.component';
 import { KosmetikComponent } from './pages/kosmetik/kosmetik.component';
 import { RechtlichesComponent } from './pages/rechtliches/rechtliches.component';
