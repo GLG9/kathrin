@@ -1,8 +1,8 @@
 {
   "routes": [
+    "/",
     "/ausbildung",
     "/coaching",
-    "/home",
     "/kontakt",
     "/kosmetik",
     "/rechtliches",
