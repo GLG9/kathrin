@@ -11,7 +11,7 @@ import { TherapieComponent } from './pages/therapie/therapie.component';
 import { WorkingComponent } from './pages/working/working.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent},
+    { path: 'home', component: HomeComponent},
     { path: 'über-mich', component: AboutComponent },
     { path: 'ausbildung', component: AusbildungComponent },
     { path: 'coaching', component: CoachingComponent },
@@ -21,4 +21,7 @@ export const routes: Routes = [
     { path: 'schmerzbehandlung', component: SchmerzbehandlungComponent },
     { path: 'therapie', component: TherapieComponent },
     { path: 'wie-ich-arbeite', component: WorkingComponent },
+
+    { path: '', redirectTo: 'home', pathMatch: 'full'},
+    { path: '**', redirectTo: 'home', pathMatch: 'full'},
 ];
