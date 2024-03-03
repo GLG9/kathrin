@@ -1,0 +1,14 @@
+{
+  "routes": [
+    "/ausbildung",
+    "/coaching",
+    "/home",
+    "/kontakt",
+    "/kosmetik",
+    "/rechtliches",
+    "/schmerzbehandlung",
+    "/therapie",
+    "/über-mich",
+    "/wie-ich-arbeite"
+  ]
+}
