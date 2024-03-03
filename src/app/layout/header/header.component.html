@@ -1,1 +1,18 @@
-<p>header works!</p>
+<header>
+    <div class="navbar">
+        <nav>
+            <input type="checkbox" id="toggle_button">
+            <label for="toggle_button"><span class="material-symbols-rounded">menu</span></label>
+            <ul>
+                <img src="assets/img/blatt1.png" alt="Blatt">
+                <li class="a"><a href="">Home</a></li>
+                <li class="b"><a href="/über-mich">Über mich</a></li>
+                <li class="c"><a href="/wie-ich-arbeite">Wie ich arbeite</a></li>
+                <li class="d"><a href="/schmerzbehandlung">Schmerzbehandlung</a></li>
+                <li class="e"><a href="/coaching">Coaching</a></li>
+                <li class="f"><a href="/ausbildung">HP-Ausbildung</a></li>
+                <button (click)="redirectToGoogle()" >Kontakt</button>
+            </ul>
+        </nav>
+    </div>
+</header>

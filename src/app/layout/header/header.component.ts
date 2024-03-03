@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.sass'
 })
 export class HeaderComponent {
-
+redirectToGoogle() {
+  window.location.href = "/kontakt";
+}
 }

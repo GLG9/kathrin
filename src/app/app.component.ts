@@ -31,6 +31,9 @@ import { WorkingComponent } from './pages/working/working.component';
     SchmerzbehandlungComponent,
     TherapieComponent,
     WorkingComponent,
+
+    HeaderComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass'
